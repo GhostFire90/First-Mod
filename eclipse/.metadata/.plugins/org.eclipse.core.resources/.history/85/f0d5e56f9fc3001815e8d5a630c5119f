@@ -1,0 +1,5 @@
+package com.Ghostfire.Firstmod.blocks.container;
+
+public class ContainerDChest {
+
+}

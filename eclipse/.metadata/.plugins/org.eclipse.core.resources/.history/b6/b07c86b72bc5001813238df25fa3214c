@@ -1,0 +1,23 @@
+package com.Ghostfire.Firstmod.blocks;
+
+import com.Ghostfire.Firstmod.util.IHasModel;
+import com.Ghostfire.Firstmod.util.Reference;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.ITileEntityProvider;
+import net.minecraft.block.material.Material;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+
+public class TestContainer extends Block implements ITileEntityProvider{
+	public TestContainer() {
+		super(Material.IRON);
+		setUnlocalizedName(Reference.MOD_ID + ".testcontainer");
+		setRegistryName("testcontainer");
+	}
+	@SideOnly(Side.CLIENT)
+	public void initModel() {
+		
+	}
+
+}

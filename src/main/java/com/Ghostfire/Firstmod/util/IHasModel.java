@@ -1,0 +1,5 @@
+package com.Ghostfire.Firstmod.util;
+
+public interface IHasModel {
+	public void registerModels();
+}

@@ -1,0 +1,16 @@
+package com.Ghostfire.Firstmod.blocks.tileentity;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntityLockableLoot;
+import net.minecraft.util.ITickable;
+import net.minecraft.util.NonNullList;
+
+public class TileEntityDChest  extends TileEntityLockableLoot implements ITickable{
+	private NonNullList<ItemStack> chestContents = NonNullList.<ItemStack>withSize(72, ItemStack.EMPTY);
+	public int numPlayersUsing, ticsSinceSync;
+	public float lidAngle, prevLidAngle;
+	@Override
+	public int getSizeInventory() {
+		return 72;
+	}
+}

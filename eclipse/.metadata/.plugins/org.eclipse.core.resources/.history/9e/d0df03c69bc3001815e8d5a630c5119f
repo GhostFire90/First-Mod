@@ -1,0 +1,7 @@
+package com.Ghostfire.Firstmod.blocks;
+
+import net.minecraft.block.Block;
+
+public class BlockDChest extends Block {
+
+}

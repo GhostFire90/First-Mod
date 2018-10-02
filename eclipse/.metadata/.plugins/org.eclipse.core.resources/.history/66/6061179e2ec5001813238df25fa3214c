@@ -1,0 +1,5 @@
+package com.Ghostfire.Firstmod.blocks.tileentity;
+
+public class TestContainerTileEntity {
+
+}

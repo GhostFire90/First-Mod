@@ -1,0 +1,5 @@
+package com.Ghostfire.Firstmod.proxy;
+
+public class ClientProxy extends CommonProxy{
+
+}

@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2018-09-26 19:48:36 -0700",
+      "extreme_hills": "2018-09-26 19:49:13 -0700",
+      "river": "2018-09-26 19:49:12 -0700"
+    },
+    "done": false
+  }
+}

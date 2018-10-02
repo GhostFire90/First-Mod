@@ -1,0 +1,54 @@
+package com.Ghostfire.Firstmod.blocks.tileentity;
+
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.InventoryPlayer;
+import net.minecraft.inventory.Container;
+import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntityLockableLoot;
+import net.minecraft.util.ITickable;
+import net.minecraft.util.NonNullList;
+
+public class TileEntityDChest  extends TileEntityLockableLoot implements ITickable{
+	private NonNullList<ItemStack> chestContents = NonNullList.<ItemStack>withSize(72, ItemStack.EMPTY);
+	public int numPlayersUsing, ticsSinceSync;
+	public float lidAngle, prevLidAngle;
+	@Override
+	public int getSizeInventory() {
+		return 72;
+	}
+	@Override
+	public int getInventoryStackLimit() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public Container createContainer(InventoryPlayer arg0, EntityPlayer arg1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String getGuiID() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	protected NonNullList<ItemStack> getItems() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
